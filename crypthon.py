@@ -11,5 +11,5 @@ elif(sys.argv[1] == 'decrypt' or sys.argv[1] == 'd'):
     crypter.decrypt(sys.argv[2], sys.argv[3])
 else:
     print('''HELP:
-    encrypt/e + filePath = encrypt file (Ex: crypthon e file.txt)
-    decrypt/d + filePath + keyPath = decrypt file (Ex: crypthon d encryptedFile.cry key.cry)''')
+    encrypt/e + filePath = encrypt file (Ex: crypthon.exe(or crypthon.py) e file.txt)
+    decrypt/d + filePath + keyPath = decrypt file (Ex: crypthon.exe(or crypthon.py) d encryptedFile.cry key.cry)''')
